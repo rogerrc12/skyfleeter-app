@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "skyfleeter-app",
-    "slug": "skyfleeter-app",
-    "version": "1.0.0",
+    "name": "Skyfleeter",
+    "slug": "skyfleeter",
+    "version": "0.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,20 +14,26 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "skyfleeter.app",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "skyfleeter.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "980ad7ed-4f85-413e-bdbd-63f550020e43"
+      }
     }
   }
 }
