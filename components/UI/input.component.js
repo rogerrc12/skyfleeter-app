@@ -12,7 +12,8 @@ const StyledInput = styled(TextInput).attrs(({ error, theme }) => ({
     },
   },
 }))`
-  height: 45px;
+  height: 47.5px;
+  padding: 0;
 `;
 
 const FormGroup = styled.View`
